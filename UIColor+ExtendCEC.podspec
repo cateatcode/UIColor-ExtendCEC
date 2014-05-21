@@ -13,10 +13,10 @@ Pod::Spec.new do |s|
                        2.color with HEXString
                        3.color with RGB
                        DESC
-  s.homepage         = "https://github.com/cateatcode/UIColor+ExtendCEC"
+  s.homepage         = "https://github.com/cateatcode/UIColor-ExtendCEC"
   s.license          = 'MIT'
   s.author           = { "qiang.xu" => "cateatcode@gmail.com" }
-  s.source           = { :git => "https://github.com/cateatcode/UIColor+ExtendCEC.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/cateatcode/UIColor-ExtendCEC.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/EXAMPLE'
 
   s.platform     = :ios, '5.0'
