@@ -18,7 +18,7 @@ it simply add the following line to your Podfile:
 
 ## Author
 
-qiang.xu, antwork@126.com
+qiang.xu, cateatcode@gmail.com
 
 ## License
 

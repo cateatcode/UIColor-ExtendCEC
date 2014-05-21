@@ -7,30 +7,23 @@
 Pod::Spec.new do |s|
   s.name             = "UIColor+ExtendCEC"
   s.version          = "0.1.0"
-  s.summary          = "A short description of UIColor+ExtendCEC."
+  s.summary          = "Common UIColor operates."
   s.description      = <<-DESC
-                       An optional longer description of UIColor+ExtendCEC
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       1.color with HEX
+                       2.color with HEXString
+                       3.color with RGB
                        DESC
-  s.homepage         = "http://EXAMPLE/NAME"
-  s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/cateatcode/UIColor+ExtendCEC"
   s.license          = 'MIT'
-  s.author           = { "qiang.xu" => "antwork@126.com" }
-  s.source           = { :git => "http://EXAMPLE/NAME.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/EXAMPLE'
+  s.author           = { "qiang.xu" => "cateatcode@gmail.com" }
+  s.source           = { :git => "https://github.com/cateatcode/UIColor+ExtendCEC.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/EXAMPLE'
 
-  # s.platform     = :ios, '5.0'
-  # s.ios.deployment_target = '5.0'
-  # s.osx.deployment_target = '10.7'
-  s.requires_arc = true
+  s.platform     = :ios, '5.0'
+  s.requires_arc = false
 
-  s.source_files = 'Classes'
-  s.resources = 'Assets/*.png'
+  s.source_files = 'Classes/*.{h,m}'
 
-  s.ios.exclude_files = 'Classes/osx'
-  s.osx.exclude_files = 'Classes/ios'
   # s.public_header_files = 'Classes/**/*.h'
   # s.frameworks = 'SomeFramework', 'AnotherFramework'
   # s.dependency 'JSONKit', '~> 1.4'
